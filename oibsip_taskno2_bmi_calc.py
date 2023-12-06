@@ -10,7 +10,7 @@ Original file is located at
 Height = float(input("Enter the height in cm: "))
 Weight = float(input("Enter the weight in kg: "))
 #a function for BMI
-BMI = Weight / (Weight/100)**2
+BMI = Weight / (Height/100)**2
 print("Your Body Mass Index is", BMI)
 if BMI <= 18.5:
     print("Oops! You are underweight.")
